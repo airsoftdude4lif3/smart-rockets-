@@ -1,9 +1,4 @@
-
-  
-
-  var paused = false   
-
-
+var paused = false;
 // Daniel Shiffman
 // http://codingtra.in
 // http://patreon.com/codingtrain
@@ -27,52 +22,40 @@ var ry = 150;
 var rw = 200;
 var rh = 10;
 
-
-
-
-
 function setup() {
   createCanvas(400, 300);
   population = new Population();
   lifeP = createP();
   target = createVector(width / 2, 50);
-
 }
+
 function draw() {
-if (paused) {
-  //do this stuff
-}else{
-  /do the normal stuff
-}
-  function key Pressed(){
-    if(key === 'p') {
-      //do pause  stuff
-      paused = true;
+  if (paused) {
+    // Do paused stuff
+  } else {
+    // do the normal stuff
+    background(0);
+    population.run();
+    // Displays count to window
+    lifeP.html(count);
+  
+    count++;
+    if (count == lifespan) {
+      population.evaluate();
+      population.selection();
+      // Population = new Population();
+      count = 0;
     }
+    // Renders barrier for rockets
+    fill(255);
+    rect(rx, ry, rw, rh);
+    // Renders target
+    ellipse(target.x, target.y, 16, 16);
   }
-  background(0);
-  population.run();
-  // Displays count to window
-  lifeP.html(count);
-
-  count++;
-  if (count == lifespan) {
-    population.evaluate();
-    population.selection();
-    // Population = new Population();
-    count = 0;
-  }
-  // Renders barrier for rockets
-  fill(255);
-  rect(rx, ry, rw, rh);
-  // Renders target
-  ellipse(target.x, target.y, 16, 16);
 }
 
-function keyPressed(){
-  if (key === 'p'){
-    //do pause stuff
+function keyPressed() {
+  if (key === 'p') {
     paused = true;
   }
 }
-  }
