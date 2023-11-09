@@ -37,6 +37,7 @@ function draw() {
  if (paused) {
     textSize(100); 
     text("PAUSED", 100, 150);}
+    console.log('PAUSED') 
     
     background(0);
     population.run();
