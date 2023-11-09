@@ -34,9 +34,7 @@ function draw() {
     // Do paused stuff
   } else {
     // do the normal stuff
-if (paused) {
-    textSize(100); 
-    text("PAUSED", 100, 150); 
+
     background(0);
     population.run();
     // Displays count to window
