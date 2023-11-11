@@ -29,7 +29,7 @@ function setup() {
   target = createVector(width / 2, 50);
 }
 
-function draw() {
+function draw() 
   if (paused) {
     // Do paused stuff
   } else {
