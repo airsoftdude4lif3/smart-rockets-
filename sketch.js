@@ -36,7 +36,7 @@ function draw() {
     // do the normal stuff
     textSize(100); 
     text("PAUSED", 100, 150);}
-    console.log('PAUSED') 
+    console.log('PAUSED')} 
     
     background(0);
     population.run();
