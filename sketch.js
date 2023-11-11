@@ -34,7 +34,6 @@ function draw() {
     // Do paused stuff
   } else {
     // do the normal stuff
- if (paused) {
     textSize(100); 
     text("PAUSED", 100, 150);}
     console.log('PAUSED') 
