@@ -30,7 +30,7 @@ function setup() {
 }
 
 function draw() {
-  if (paused){
+  if (paused) {
     textSize(100); 
     text("PAUSED", 100, 150);
   } else {
