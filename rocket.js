@@ -87,7 +87,8 @@ function Rocket(dna) {
     push();
     //color customization of rockets
     noStroke();
-    fill(255, 150);
+    let c = random(COLORS);
+    fill(c);
     //translate to the postion of rocket
     translate(this.pos.x, this.pos.y);
     //rotatates to the angle the rocket is pointing
