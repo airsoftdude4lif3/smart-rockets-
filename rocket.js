@@ -3,6 +3,12 @@
 // http://patreon.com/codingtrain
 // Code for: https://youtu.be/bGz7mv2vD6g
 
+Const COLORS =[ color (r,g,b,),
+               color (255,102,52),
+show() {      ];
+
+
+
 // Constructor function
 function Rocket(dna) {
   // Physics of rocket at current instance
