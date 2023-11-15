@@ -3,7 +3,7 @@
 // http://patreon.com/codingtrain
 // Code for: https://youtu.be/bGz7mv2vD6g
 
-const COLORS =[ color (0,102,204)
+const COLORS =[ color (0,102,204),
                 color (255,102,52)
       ];
 
