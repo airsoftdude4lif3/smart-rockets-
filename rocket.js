@@ -16,8 +16,7 @@ function Rocket(dna) {
   this.acc = createVector();
   
 
-this.color = random(COLORS); 
-  fill(this.color);
+  this.color = random(COLORS); 
   
   // Checkes rocket has reached target
   this.completed = false;
