@@ -4,8 +4,8 @@
 // Code for: https://youtu.be/bGz7mv2vD6g
 
 const COLORS =[ [0,102,204],
-                [255,102,52]
-                [178,102,255] ];
+                [255,102,52],
+                [178,102,255], ];
 
 
 // Constructor function
