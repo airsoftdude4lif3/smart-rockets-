@@ -100,6 +100,15 @@ function Rocket(dna) {
     rectMode(CENTER);
     rect(0, 0, 25, 5);
     pop();
+
+    function mouseClicked() {
+      if (MouseOverRocket()) {
+    if else (clickedCanDragRocket) {
+      
+    } {
+      
+    }
+
   }
 
 }
