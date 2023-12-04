@@ -64,6 +64,12 @@ function Rocket(dna) {
     if (this.pos.x > rx && this.pos.x < rx + rw && this.pos.y > ry && this.pos.y < ry + rh) {
       this.crashed = true;
     }
+    // Rocket hit the barrier
+    if (this.pos.x > rx2 && this.pos.x < rx2 + rw2 && this.pos.y > ry2 && this.pos.y < ry2 + rh2) {
+      this.crashed = true;
+
+      
+    }
     // Rocket has hit left or right of window
     if (this.pos.x > width || this.pos.x < 0) {
       this.crashed = true;
