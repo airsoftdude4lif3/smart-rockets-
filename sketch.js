@@ -61,6 +61,12 @@ function draw() {
     rect(rx, ry, rw, rh);
     // Renders target
     ellipse(target.x, target.y, 16, 16);
+
+  // Renders barrier for rockets
+    fill(9,0,255);
+    rect(rx2, ry2, rw2, rh2);
+
+    
   }
 }
 
