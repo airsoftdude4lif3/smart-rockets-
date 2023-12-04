@@ -22,6 +22,13 @@ var ry = 150;
 var rw = 200;
 var rh = 10;
 
+// Dimensions of barrier
+var rx2 = 150;
+var ry2 = 150;
+var rw2 = 200;
+var rh2 = 10;
+
+
 function setup() {
   createCanvas(1000, 800);
   population = new Population();
