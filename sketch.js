@@ -26,7 +26,7 @@ var rh = 10;
 var rx2 = 130;
 var ry2 = 170;
 var rw2 = 210;
-var rh2 = 10;
+var rh2 = 20;
 
 
 function setup() {
