@@ -23,7 +23,7 @@ var rw = 200;
 var rh = 10;
 
 function setup() {
-  createCanvas(500, 400);
+  createCanvas(800, 600);
   population = new Population();
   lifeP = createP();
   target = createVector(width / 2, 50);
