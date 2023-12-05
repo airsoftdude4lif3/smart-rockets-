@@ -23,9 +23,9 @@ var rw = 200;
 var rh = 10;
 
 // Dimensions of barrier
-var rx2 = 350;
-var ry2 = 290;
-var rw2 = 400;
+var rx2 = 100;
+var ry2 = 150;
+var rw2 = 200;
 var rh2 = 10;
 
 
