@@ -1,4 +1,4 @@
-var paused = false;
+tvar paused = false;
 // Daniel Shiffman
 // http://codingtra.in
 // http://patreon.com/codingtrain
@@ -24,7 +24,7 @@ var rh = 10;
 
 // Dimensions of barrier
 var rx2 = 150;
-var ry2 = 190;
+var ry2 = 290;
 var rw2 = 400;
 var rh2 = 20;
 
