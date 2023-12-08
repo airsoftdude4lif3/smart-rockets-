@@ -1,4 +1,4 @@
-tvar paused = false;
+var paused = false;
 // Daniel Shiffman
 // http://codingtra.in
 // http://patreon.com/codingtrain
